@@ -1,0 +1,10 @@
+:root {
+  --teal-blue: hsl(228, 45%, 44%);
+
+  --container-max-width: 1024px;
+}
+
+body {
+  background-color: var(--teal-blue);
+  max-width: var(--container-max-width)
+}
