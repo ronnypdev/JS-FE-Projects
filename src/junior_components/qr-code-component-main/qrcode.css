@@ -12,7 +12,8 @@
   --color-white: hsl(0, 0%, 100%);
   --color-light-gray: hsl(212, 45%, 89%);
   --color-grayish-blue: hsl(220, 15%, 55%);
-  --dark-blue: hsl(218, 44%, 22%);
+  --color--dark-blue: hsl(218, 44%, 22%);
+  --color--teal-blue:hsl(228, 45%, 44%);
   /*
       Typography variables
   */
@@ -23,4 +24,13 @@
 body {
   font-family: var(--font-family);
   font-size: var(--font-size);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--color--teal-blue);
 }
