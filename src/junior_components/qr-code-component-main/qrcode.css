@@ -22,6 +22,8 @@
 }
 
 body {
+  width: 100%;
+  max-width: 100%;
   font-family: var(--font-family);
   font-size: var(--font-size);
 }
@@ -33,4 +35,12 @@ body {
 
 .attribution a {
   color: var(--color--teal-blue);
+}
+
+.qr-code-section {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
 }

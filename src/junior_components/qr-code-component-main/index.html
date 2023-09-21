@@ -4,16 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <link rel="stylesheet" href="./qrcode.css">
 
   <title>Frontend Mentor | QR code component</title>
 </head>
 <body>
 
-  <section class="qr-code-wrapper">
+  <section class="qr-code-section">
     <div class="qr-code">
-      
+      <div class="qr-code__media">
+        <img src="./images/image-qr-code.png" alt="qr code image" class="qr-code__image">
+      </div>
+      <!-- #End qr-code__media div-->
+
+      <header class="qr-code__header">
+        <h5>Improve your front-end skills by building projects</h5>
+      </header>
+      <!-- #End qr-code__header div-->
+
+      <div class="qr-code__body">
+        <p class="qr-code__body-text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level!</p>
+      </div>
     </div>
   </section>
 
