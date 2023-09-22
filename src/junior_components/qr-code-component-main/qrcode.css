@@ -10,8 +10,10 @@
     Colors variables
   */
   --color-white: hsl(0, 0%, 100%);
+  --color-grey: #7D889E;
   --color-light-gray: hsl(212, 45%, 89%);
   --color-grayish-blue: hsl(220, 15%, 55%);
+  --color-dark-grey: #1F314F;
   --color--dark-blue: hsl(218, 44%, 22%);
   --color--teal-blue:hsl(228, 45%, 44%);
   /*
