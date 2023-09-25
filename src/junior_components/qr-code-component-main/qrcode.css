@@ -10,11 +10,11 @@
     Colors variables
   */
   --color-white: hsl(0, 0%, 100%);
-  --color-grey: #7D889E;
-  --color-light-gray: hsl(212, 45%, 89%);
-  --color-grayish-blue: hsl(220, 15%, 55%);
-  --color-dark-grey: #1F314F;
-  --color--dark-blue: hsl(218, 44%, 22%);
+  --color-grey: hsl(219, 15%, 55%);
+  --color-light-gray: hsl(212, 46%, 89%);
+  --color-dark-navy: hsl(218, 44%, 22%);
+  --color-blue: hsl(216, 95%, 58%);
+  --color-blue-shade: hsl(216, 100%, 61%);
   --color--teal-blue:hsl(228, 45%, 44%);
   /*
       Typography variables
