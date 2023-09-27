@@ -40,9 +40,56 @@ body {
 }
 
 .qr-code-section {
-  width: 100%;
+  width: 1440px;
+  height: 800px;
   max-width: 100%;
   display: flex;
   justify-content: center;
   justify-items: center;
+  background-color: var(--color-light-gray);
+  margin: 0 auto;
+}
+
+.qr-code {
+  width: 320px;
+  height: 497px;
+  max-width: 100%;
+  background-color: var(--color-white);
+  align-self: center;
+  text-align: center;
+  padding: 18px 5px 5px 5px;
+  border-radius: 20px;
+}
+
+.qr-code__media {
+  width: 100%;
+}
+
+.qr-code__header {
+  padding: 0 10px;
+}
+
+.qr-code__image {
+  display: block;
+  max-width: 100%;
+  width: 288px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.qr-code__header h5 {
+  font-size: 22px;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin: 22px 5px;
+  color: var(--color-dark-navy);
+}
+
+.qr-code__body {
+  color: var(--color-dark-navy);
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.19px;
+  word-wrap: break-word
 }
