@@ -28,6 +28,8 @@ body {
   max-width: 100%;
   font-family: var(--font-family);
   font-size: var(--font-size);
+  margin: 0;
+  padding: 0;
 }
 
 .attribution {
@@ -79,7 +81,7 @@ body {
 }
 
 .qr-code__header h5 {
-  font-size: 22px;
+  font-size: 1.375em;
   font-weight: 700;
   word-wrap: break-word;
   margin: 22px 5px;
@@ -88,8 +90,14 @@ body {
 
 .qr-code__body {
   color: var(--color-dark-navy);
-  font-size: 15px;
+  font-size: 0.9375em;
   font-weight: 400;
   letter-spacing: 0.19px;
   word-wrap: break-word
+}
+
+@media screen and (max-width: 480px) {
+  .qr-code-section {
+    width: 100%; 
+  }
 }
