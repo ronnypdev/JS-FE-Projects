@@ -1,3 +1,35 @@
-.vs-red {
-  color: red;
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+:root  {
+  /*
+    Colors variables
+  */
+  --color-pure-white: hsl(0, 0%, 100%);
+  --color-lavender: hsl(228, 12%, 48%);
+  --color-cream: hsl(30, 38%, 92%);
+  --color-green-cyan: hsl(158, 36%, 37%);
+  --color-dark-cyan: hsl(158, 42%, 18%);
+  --color-gumental: hsl(212, 21%, 14%);
+
+  /*
+    Layout variables
+  */
+  --mobile-view: 375px;
+  --desktop-view: 1440px;
+  /*
+    Typography variables
+  */
+  --font-family: 'Montserrat', sans-serif;
+  --font-family-secondary: 'Fraunces', serif;
+  --font-size: 14px;
+}
+
+body {
+  background-color: var(--color-cream);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  width: 100%;
+  max-width: 100%;
 }
