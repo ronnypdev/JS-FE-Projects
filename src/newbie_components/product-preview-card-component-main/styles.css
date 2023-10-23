@@ -42,10 +42,18 @@ body {
 .card-component {
   width: 600px;
   height: 420px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-pure-white);
+}
+
+.card-component-image,
+.card-component-content {
+  width: 50%;
 }
 
 .product-image {
   display: block;
-  width: 50%;
+  width: 100%;
   height: 420px;
 }
