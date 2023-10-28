@@ -54,10 +54,13 @@ body {
   width: 50%;
 }
 
-.card-component .product-image {
-  display: block;
+.card-component  .card-component-image .product-image {
+  background-image: url('./images/image-product-desktop.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
-  height: 420px;
+  height: 100%;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px
 }
@@ -149,4 +152,31 @@ body {
   margin-right: 10px;
   position: relative;
   top: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  body {
+    padding: 10px;
+  }
+
+  .card-component {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-component .card-component-image,
+  .card-component .card-component-content {
+    width: 100%;
+  }
+
+  /* .card-component .card-component-image .product-image {
+    background-image: url('./images/image-product-mobile.jpg');
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: unset;
+    object-fit: cover;
+  } */
 }
