@@ -172,11 +172,15 @@ body {
     width: 100%;
   }
 
-  /* .card-component .card-component-image .product-image {
+  .card-component .card-component-image {
+    min-height: 260px;
+  }
+
+  .card-component .card-component-image .product-image {
     background-image: url('./images/image-product-mobile.jpg');
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: unset;
     object-fit: cover;
-  } */
+  }
 }
