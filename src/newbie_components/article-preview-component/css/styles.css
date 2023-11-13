@@ -16,4 +16,115 @@
 body {
   font-family: var(--font-family);
   font-size: var(--font-size);
+  background-color: var(--color-baby-blue);
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.article-preview {
+  width: 730px;
+  max-width: 100%;
+  height: 280px;
+  display: flex;
+  background-color: var(--color-white);
+  border-radius: 8px;
+}
+
+.article-preview .article-preview-image {
+  height: 100%;
+  width: 40%;
+}
+
+.article-preview .article-preview-image .feature-image {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.article-preview .article-preview-content {
+  width: 60%;
+  padding: 26px;
+}
+
+.article-preview .article-preview-heading {
+  color: var(--color-dark-greyish-blue);
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  word-wrap: break-word;
+  margin-bottom: 12px;
+}
+
+.article-preview .article-preview-body {
+  color: var(--color-desaturated);
+  font-family: var(--font-family);
+  font-size: 13px;
+  font-family: 500;
+  line-height: 20px;
+  letter-spacing: 0.12px;
+  word-wrap: break-word;
+  margin-bottom: 20px;
+}
+
+.article-preview .profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.article-preview .profile-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.article-preview .profile-image {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  margin-right: 10px;
+}
+
+.article-preview .profile-name {
+  color: var(--color-dark-greyish-blue);
+  font-family: var(--font-family);
+  font-size: 13px;
+  font-family: 700;
+  line-height: 20px;
+  letter-spacing: 0.12px;
+  word-wrap: break-word;
+}
+
+.article-preview .profile-date {
+  color: var(--color-greyish-light-blue);
+  font-family: var(--font-family);
+  font-size: 13px;
+  font-family: 500;
+  line-height: 20px;
+  letter-spacing: 0.12px;
+  word-wrap: break-word;
+}
+
+.article-preview .profile-share-button {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px;
+  background-color: var(--color-baby-blue);
+}
+
+.article-preview .profile-share-button.js-profile-button {
+  background-color: var(--color-desaturated);
 }
