@@ -124,3 +124,7 @@ body {
   border-radius: 9999px;
   background-color: var(--color-baby-blue);
 }
+
+.article-preview .profile-share-button.js-profile-button {
+  background-color: var(--color-desaturated);
+}
