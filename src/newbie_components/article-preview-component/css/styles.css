@@ -128,3 +128,7 @@ body {
 .article-preview .profile-share-button.js-profile-button {
   background-color: var(--color-desaturated);
 }
+
+.article-preview .profile-share-arrow.fill-white path {
+  fill: var(--color-white) !important;
+}
