@@ -27,15 +27,16 @@ body {
 }
 
 .article-preview {
+  position: relative;
   width: 730px;
   max-width: 100%;
   height: 280px;
   display: flex;
   background-color: var(--color-white);
   border-radius: 8px;
-box-shadow: -1px 4px 8px 0px rgba(0, 0, 0, 0.16);
-  -webkit-box-shadow: -1px 4px 8px 0px rgba(0, 0, 0, 0.16);
-  -moz-box-shadow: -1px 4px 8px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.50);
+  -webkit-box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.50);
+  -moz-box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.50);
 }
 
 .article-preview .article-preview-image {
@@ -135,6 +136,64 @@ box-shadow: -1px 4px 8px 0px rgba(0, 0, 0, 0.16);
 .article-preview .profile-share-arrow.fill-white path {
   fill: var(--color-white) !important;
 }
+
+
+/*
+desktop tooltip
+*/
+.share-modal {
+  display: none;
+  /* display: flex; */
+  position: absolute;
+  right: -86px;
+  bottom: 88px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  height: 55px;
+  width: 248px;
+  background-color: var(--color-dark-greyish-blue);
+  box-shadow: 0px 10px 10px rgba(201, 213, 225, 0.50);
+  -webkit-box-shadow: 0px 10px 10px rgba(201, 213, 225, 0.50);
+  -moz-box-shadow: 0px 10px 10px rgba(201, 213, 225, 0.50);
+}
+
+.share-modal.dk-modal-open {
+  display: flex;
+}
+
+.share-modal::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  top: 55px;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-top: 9px solid rgb(72, 85, 106);
+}
+
+.share-modal .share-modal-text {
+  color: var(--color-greyish-light-blue);
+  font-size: 13px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  word-wrap: break-word;
+  align-self: inherit;
+  position: relative;
+  left: 16px;
+}
+
+.share-modal .share-modal-list .share-modal-item {
+  display: inline-block;
+  margin-right: 18px;
+}
+
+
+
 
 @media only screen and (max-width: 768px) {
   body {
