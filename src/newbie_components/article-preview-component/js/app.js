@@ -1,8 +1,7 @@
 const shareButton = document.querySelector('.profile-share-button');
-console.log("shareButton: ", shareButton);
 const shareSVG = document.querySelector('.profile-share-arrow');
-console.log("shareSVG: ", shareSVG);
 const modalOpen = document.querySelector('.share-modal');
+const mobileModalOpen = document.querySelector('.mobile-share');
 
 
 
@@ -14,4 +13,9 @@ shareButton.addEventListener('click', function () {
   if (window.innerWidth > 768) {
     modalOpen.classList.toggle('dk-modal-open');
   }
+
+  if (window.innerWidth < 768) {
+    mobileModalOpen.classList.toggle('mb-is-open');
+  }
+
 })

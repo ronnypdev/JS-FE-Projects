@@ -192,6 +192,45 @@ desktop tooltip
   margin-right: 18px;
 }
 
+.mobile-share {
+  background-color: var(--color-dark-greyish-blue);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 64px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: none;
+}
+
+.mobile-share .mobile-share-modal {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 26px;
+}
+
+.mobile-share .mobile-share-modal-text {
+  color: var(--color-greyish-light-blue);
+  font-size: 13px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  word-wrap: break-word;
+  align-self: inherit;
+}
+
+.mobile-share .mobile-share-modal-list {
+  margin-left: 18px;
+}
+
+.mobile-share .mobile-share-modal-list .mobile-share-modal-item {
+  display: inline-block;
+  margin-right: 18px;
+}
+
 @media only screen and (max-width: 768px) {
   body {
     padding: 20px;
@@ -225,43 +264,8 @@ desktop tooltip
     position: relative;
   }
 
-  .mobile-share {
-    background-color: var(--color-dark-greyish-blue);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    height: 64px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    display: none;
-  }
-
-  .mobile-share .mobile-share-modal {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 26px;
-  }
-
-  .mobile-share .mobile-share-modal-text {
-    color: var(--color-greyish-light-blue);
-    font-size: 13px;
-    font-family: var(--font-family);
-    font-weight: 500;
-    line-height: 20px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    word-wrap: break-word;
-    align-self: inherit;
-  }
-
-  .mobile-share .mobile-share-modal-list {
-    margin-left: 18px;
-  }
-
-  .mobile-share .mobile-share-modal-list .mobile-share-modal-item {
-    display: inline-block;
-    margin-right: 18px;
+  .mobile-share.mb-is-open {
+    display: block;
   }
 
 }
