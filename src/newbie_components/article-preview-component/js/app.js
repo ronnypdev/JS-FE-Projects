@@ -6,7 +6,6 @@ const mobileModalOpen = document.querySelector('.mobile-share');
 
 
 shareButton.addEventListener('click', function () {
-  console.log('click is working');
   this.classList.toggle('js-profile-button');
   shareSVG.classList.toggle('fill-white');
 
