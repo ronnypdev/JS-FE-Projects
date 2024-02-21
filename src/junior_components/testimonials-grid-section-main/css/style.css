@@ -1,1 +1,9 @@
+:root {
+  --color-teal: #ECF2F8;
+}
+
 html, body { height: 100%;}
+
+body {
+  background-color: var(--color-teal);
+}
