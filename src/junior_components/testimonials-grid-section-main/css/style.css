@@ -1,9 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
 :root {
-  --color-teal: #ECF2F8;
+  /*
+   ===> Colors <==
+  **/
+  --color-white: hsl(0, 0%, 100%);
+  --color-matted-black: hsl(219, 29%, 14%);
+  --color-teal: hsl(210, 46%, 95%);
+  --color-purple: hsl(263, 55%, 52%);
+  --color-light-purple: hsl(264, 82%, 70%);
+  --color-grey: hsl(0, 0%, 81%);
+  --color-matted-grey: hsl(217, 19%, 35%);
+
+  /*
+    ===> Fonts <==
+  **/
+  --font-family: "Barlow Semi Condensed", sans-serif;
+  --font-size: 13px;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+
+  /*
+    Grid
+  **/
+  --grid-gap: 24px 30px;
 }
 
 html, body { height: 100%;}
 
 body {
   background-color: var(--color-teal);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-500);
 }
