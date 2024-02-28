@@ -45,6 +45,10 @@ body {
   gap: var(--grid-gap);
 }
 
+.testimonial:nth-child(3) {
+  grid-row-start: span 2;
+}
+
 .testimonial .testimonial__header {
   display: flex;
   margin-bottom: 18px;
@@ -55,10 +59,6 @@ body {
   display: inline-block;
   width: 28px;
   height: 28px;
-}
-
-.testimonial--kira {
-  grid-row-start: span 2;
 }
 
 .border-purple {
