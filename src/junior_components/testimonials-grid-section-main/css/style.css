@@ -45,23 +45,28 @@ body {
   gap: var(--grid-gap);
 }
 
+.testimonial {
+  border-radius: 8px;
+}
+
 .testimonial:nth-child(1) {
-  
+  background-color: var(--color-purple);
 }
 
 .testimonial:nth-child(2) {
-  
+  background-color: var(--color-matted-grey);
 }
 
 .testimonial:nth-child(3) {
-  
+  background-color: var(--color-white);
 }
 
 .testimonial:nth-child(4) {
-  
+  background-color: var(--color-matted-black);
 }
 
 .testimonial:nth-child(5) {
+  background-color: var(--color-white);
   grid-column-start: 3;
   grid-row: 1 / 3;
 }
